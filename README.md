@@ -47,5 +47,35 @@ Erre kattintva a játék bezárul.
 
 ## Statikus terv
 
+### Osztályok leírása
+
+#### MainMenu
+A játék belépési pontja, tartalmazza a játék idítására szolgáló
+gombokat, illetve ez példányosítja a _GameHud_-ot és a _MapEditorHud_-ot
+
+#### GameHud
+A fő játék vizuális megjelenítéséért felelős osztály.
+A játék állásának megfelelően jeleníti meg a játékosok információit,
+megnyitható a szünet menü.
+Tartalmazza a _Game_ osztályt.
+
+#### MapEditorHud
+Térképszerkesztő vizuális megjelenítéséért felelős osztály.
+A játékos megadhatja a pálya méretét és objektumokat helyezhet el
+erre a területre, mentheti, és betöltheti az állásokat.
+Tartalmazza a _MapEditor_-t.
+
+#### PauseMenu
+Egy kisebb menü a játékon belül, innen lehet visszalépni
+a főmenübe, menteni és betölteni a játékállást.
+
+#### Game
+
+#### PersistenceHud
+
+#### Persistence
+
+
+
 ## Felhasználói felület terve
 
