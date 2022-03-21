@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="ingame-ui-style.uss" />
+    <ui:VisualElement name="Background" class="background-style">
+        <ui:VisualElement name="ToolsVisualElement" style="border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; height: 5%; background-color: rgba(200, 255, 255, 0.16); align-items: center; justify-content: space-between; flex-direction: row; position: absolute; top: 0; width: 30%; left: 0;">
+            <ui:Button text="Menü" display-tooltip-when-elided="true" name="MenuButton" class="ingame-pause-button-style" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuVisualElement" class="menu-style">
+            <ui:Label text="Menü" display-tooltip-when-elided="true" name="MenuLabel" style="align-items: center; -unity-text-align: upper-center; position: absolute; top: 15px; font-size: 18px;" />
+            <ui:Button text="Mentés" display-tooltip-when-elided="true" name="SaveButton" class="pause-menu-button-style" />
+            <ui:Button text="Betöltés" display-tooltip-when-elided="true" name="LoadButton" class="pause-menu-button-style" />
+            <ui:Button text="Vissza a menübe" display-tooltip-when-elided="true" name="BackToMenuButton" class="pause-menu-button-style" />
+            <ui:Button text="Vissza" display-tooltip-when-elided="true" name="BackButton" class="pause-menu-button-style" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

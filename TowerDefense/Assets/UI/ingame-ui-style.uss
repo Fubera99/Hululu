@@ -1,0 +1,125 @@
+.ingame-pause-button-style {
+    height: 80%;
+    width: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    top: auto;
+    flex-direction: column;
+    background-color: rgb(255, 100, 100);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.ingame-pause-button-style:hover {
+    height: 80%;
+    width: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    top: auto;
+    flex-direction: column;
+    background-color: rgb(255, 70, 70);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.ingame-pause-button-style:active {
+    height: 80%;
+    width: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    top: auto;
+    flex-direction: column;
+    background-color: rgb(255, 40, 40);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.pause-menu-button-style {
+    width: 60%;
+    background-color: rgb(60, 170, 200);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pause-menu-button-style:hover {
+    width: 60%;
+    background-color: rgb(60, 160, 200);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pause-menu-button-style:active {
+    width: 60%;
+    background-color: rgb(60, 140, 200);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.background-style {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-style {
+    width: 30%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.39);
+    align-items: center;
+    justify-content: flex-end;
+    left: auto;
+    top: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
